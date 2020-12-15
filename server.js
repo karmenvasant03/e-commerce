@@ -123,6 +123,7 @@ app.get('/logout',(req,res)=>{
 
 
 
-app.listen(4000, () => {
-    console.log("http://localhost:4000");
-})
+// app.listen(4000, () => {
+//     console.log("http://localhost:4000");
+// })
+app.listen(process.env.PORT);
